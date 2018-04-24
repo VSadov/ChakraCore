@@ -391,4 +391,35 @@
       <files>shadowedsetter.js</files>
     </default>
   </test>
+  <test>
+    <default>
+      <files>functionConflict1.js</files>
+      <baseline>functionConflict1.baseline</baseline>
+    </default>
+  </test>
+  <test>
+    <default>
+      <files>functionConflict2.js</files>
+      <baseline>functionConflict2.baseline</baseline>
+    </default>
+  </test>
+  <test>
+    <default>
+      <files>functionConflict2.js</files>
+      <baseline>functionConflict2.baseline</baseline>
+      <compile-flags>-bgjit- -maxinterpretcount:0 </compile-flags>
+    </default>
+  </test>
+  <test>
+    <default>
+      <files>functionConflict3.js</files>
+      <baseline>functionConflict3.baseline</baseline>
+    </default>
+  </test>
+  <test>
+    <default>
+      <files>functionConflictEval.js</files>
+      <baseline>functionConflictEval.baseline</baseline>
+    </default>
+  </test>
 </regress-exe>

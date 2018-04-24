@@ -1,0 +1,3 @@
+ReferenceError: Let/Const redeclaration
+	at eval code (eval code:1:1)
+	at Global code (functionConflictEval.js:7:1)
